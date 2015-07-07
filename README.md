@@ -1,2 +1,2 @@
-# pittenga.github.io
-Personal Github Page
+# Aaron Pittenger
+Github Pages
