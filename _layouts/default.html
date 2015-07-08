@@ -16,29 +16,20 @@
   </head>
   <body>
 
-      <header>
-        <h1>Aaron Pittenger</h1>
-        <p>Github Pages</p>
-      </header>
-
-      <div id="banner">
-        <span id="logo"></span>
-
-        <a href="https://github.com/pittenga" class="button fork" target="_blank"><strong>View On GitHub</strong></a>
-      </div><!-- end banner -->
+      {% include header.html %}
 
     <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
+      {% if page.title == "Blog" %}
+      {% include nav_blog.html %}
+      {% else %}
+      {% include nav.html %}
+      {% endif %}
       <section>
           <div id="content">
             {{ content }}
           </div>
         </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
-      </footer>
+      {% include footer.html %}
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
