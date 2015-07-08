@@ -19,11 +19,7 @@
       {% include header.html %}
 
     <div class="wrapper">
-      {% if page.title == "Blog" %}
-      {% include nav_blog.html %}
-      {% else %}
       {% include nav.html %}
-      {% endif %}
       <section>
           <div id="content">
             {{ content }}
