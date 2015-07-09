@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Aaron Pittenger
+home: true
 ---
 
 # Projects 2
