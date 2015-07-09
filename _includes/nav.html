@@ -1,11 +1,14 @@
 <nav>
   <ul>
-
-<li>
-  <a href="{{ site.baseurl }}/">
-    Home
-    </a>
-</li>
+    <li>
+      <a href="{{ site.baseurl }}/">
+        {% if page.home %}
+          Home &laquo;
+        {% else %}
+          Home
+        {% endif %}
+        </a>
+    </li>
   {% for p in site.pages %}
     {% if p.home %}
     {% else %}
@@ -14,7 +17,11 @@
       <div class="img-wrapper">
       <img src="{{ p.image }}" />
     </div>
+    {% if p.title == page.title %}
+      {{ p.title }} &laquo;
+    {% else %}
       {{ p.title }}
+    {% endif %}
       </a>
   </li>
   {% endif %}
