@@ -39,10 +39,6 @@ $(document).ready(function(){
   $('img').load(sectionHeight);
 });
 
-function download(link){
-  window.open(link);
-}
-
 fixScale = function(doc) {
 
   var addEvent = 'addEventListener',
