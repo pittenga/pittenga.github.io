@@ -4,7 +4,7 @@ title: Work Experience
 ---
 This will list my work experience...
 
-# GE
+# GE 1
 
 ## Aviation Systems
 
@@ -12,7 +12,7 @@ This will list my work experience...
 
 Worked in Grand Rapids, MI
 
-# GE
+# GE 2 
 
 ## Healthcare
 
