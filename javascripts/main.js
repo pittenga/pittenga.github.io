@@ -9,6 +9,11 @@ var sectionHeight = function() {
     $section.css('height','auto');
   }
 }
+if (typeof String.prototype.startsWith != 'function') {
+  String.prototype.startsWith = function (str){
+    return this.slice(0, str.length) == str;
+  };
+}
 
 $(window).resize(sectionHeight);
 
@@ -17,11 +22,23 @@ $(document).ready(function(){
   $("section h1").each(function(){
 
     aObj = document.getElementById('nav').getElementsByTagName('a');
+    lastObject = -1;
     for(i=0;i<aObj.length;i++) {
-      if(document.location.href == aObj[i].href){
-        aObj[i].className = 'active'
-        $("<li class='tag-" + this.nodeName.toLowerCase() + "'><a href='#" + $(this).text().toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g,'') + "'>" + $(this).text() + "</a></li>").insertAfter(aObj[i].parentElement);
+      if(lastObject >= 0){
+        if(aObj[i].href.startsWith(document.location.href.concat("#"))){
+          lastObject = i;
+        }else{
+          break;
+        }
       }
+      if(document.location.href == aObj[i].href){
+        // Found the page we are on, let's put everything in there in order
+        lastObject = i;
+      }
+    }
+    if(lastObject >= 0){
+      aObj[lastObject].className = 'active'
+      $("<li class='tag-" + this.nodeName.toLowerCase() + "'><a href='#" + $(this).text().toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g,'') + "'>" + $(this).text() + "</a></li>").insertAfter(aObj[lastObject].parentElement);
     }
   });
 
