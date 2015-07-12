@@ -5,6 +5,7 @@ home: true
 ---
 
 # Education  
+
 ### Marquette University - Milwaukee, WI  
 Graduated: December 2012  
 Masters of Science in [Computing](http://mu.edu/mscs/grad-computing.shtml)  
