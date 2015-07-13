@@ -39,7 +39,7 @@ Worked on Global Media Outreach Next Steps application on Android
 
 ### GE Aviation - Grand Rapids, MI
 
-#### Mission Systems - Software Engineer
+#### Mission Systems - Lead Software Engineer
 June 2013 - Present  
 Design and implement safety critical embedded systems  
 Total software lifecycle from requirements gathering to validation and verification  
