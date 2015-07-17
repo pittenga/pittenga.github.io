@@ -58,6 +58,7 @@ Won two "Above and Beyond" corporate level awards for work while on P-8I program
 Working on Navigation and Guidance software for the Boeing E-4B and Executive 747 Flight Management System (FMS).   Implementing a Multiple Winds at Multiple Altitudes along a cruise path algorithm to incorporate into the predictions system for the FMS.  
 
 ### Grand Valley State University - Grand Rapids, MI  
+
 #### School of Engineering - Adjunct Faculty
 August 2011 - December 2011
 Lab instructor for Introduction to Digital Systems class (EGR 226).  
@@ -65,6 +66,7 @@ Assisted students with difficulties they had when performing the labs.
 Seasonal work  
 
 ### GE Aviation - Grand Rapids, MI  
+
 #### Systems Engineer - Systems Intern
 January 2009 - August 2010  
 Assisted with writing requirements for the Flight Management System (FMS) for the C-130J aircraft.  
@@ -73,6 +75,7 @@ Wrote test procedures and tested total system functionality of the C-130J FMS.
 Worked on side project software tool that simulates the flight management computer and automatically generates requirements based on general output and project standards.  
 
 ### GE Healthcare - Waukesha, WI  
+
 #### Service Methods Design Engineer - Software Intern
 May 2008 - August 2008  
 Worked on programming an illustrated replaceable parts list tool. Gathered pictures for it while enhancing the previous version and adding features requested by field personnel.  
