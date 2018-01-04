@@ -1,0 +1,8 @@
+title: Pittenga.GitHub.io
+description: Personal Github Page
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
