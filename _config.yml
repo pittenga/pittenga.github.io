@@ -6,3 +6,4 @@ remote_theme: jekyll-theme-slate
 
 gems:
   - jekyll-mentions
+  - github-pages
