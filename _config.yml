@@ -2,7 +2,7 @@ title: Aaron Pittenger's Page
 description: Personal Github Page
 google_analytics: 
 show_downloads: true
-remote_theme: jekyll-theme-hydeout
+remote_theme: jekyll-theme-slate
 
 gems:
   - jekyll-mentions
